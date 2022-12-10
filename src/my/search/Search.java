@@ -7,7 +7,7 @@ public class Search {
     public static void main(String[] args) {
 
         Search srch = new Search();
-        int[] a = srch.fillArrayRandomly(13);
+        int[] a = srch.fillArrayRandomly(14);
         int toSearch = a[3];
 
         System.out.println(Arrays.toString(a));
