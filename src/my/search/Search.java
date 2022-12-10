@@ -1,7 +1,6 @@
-package my;
+package my.search;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class Search {
 
