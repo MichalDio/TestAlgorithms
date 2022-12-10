@@ -6,11 +6,9 @@ public class Search {
 
     public static void main(String[] args) {
 
-        int a[] = new int[1000];
-
         Search srch = new Search();
-        a = srch.fillArrayRandomly(550);
-        int toSearch = a[278];
+        int[] a = srch.fillArrayRandomly(10);
+        int toSearch = a[2];
 
         System.out.println(Arrays.toString(a));
 
@@ -65,19 +63,15 @@ public class Search {
         int pVpulce = arr[pulka];
 
         while (toSearch != pVpulce) {
-
-
             if (toSearch > pVpulce) {
                 bottom = pulka - 1;
             } else {
-
                 top = pulka + 1;
-
             }
             pulka = bottom + (top - bottom) / 2;
 
             pVpulce = arr[pulka];
-            System.out.println("-hodnota v pulce -   " + pulka + ":" + pVpulce + "pro top: " + top + " a bottom: " + bottom);
+            System.out.println("-hodnota v pulce - " + pulka + " : " + pVpulce + "pro top: " + top + " a bottom: " + bottom);
 
         }
 
