@@ -63,6 +63,7 @@ public class Search {
         int pVpulce = arr[pulka];
 
         while (toSearch != pVpulce) {
+            System.out.println("-hodnota v pulce - pred zmenou" + pulka + " : " + pVpulce + "pro top: " + top + " a bottom: " + bottom);
             if (toSearch > pVpulce) {
                 bottom = pulka - 1;
             } else {
