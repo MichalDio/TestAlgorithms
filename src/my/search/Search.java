@@ -71,7 +71,7 @@ public class Search {
             pulka = bottom + (top - bottom) / 2;
 
             pVpulce = arr[pulka];
-            System.out.println("-hodnota v pulce - " + pulka + " : " + pVpulce + "pro top: " + top + " a bottom: " + bottom);
+            System.out.println("-hodnota v pulce - po zmene" + pulka + " : " + pVpulce + "pro top: " + top + " a bottom: " + bottom);
 
         }
 
